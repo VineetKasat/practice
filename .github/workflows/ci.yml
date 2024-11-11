@@ -35,4 +35,4 @@ jobs:
       # Step 4: Run Tests (you can replace this with actual test commands)
       - name: Run application or tests
         run: |
-          python app.py
+          pytest test_app.py
